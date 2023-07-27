@@ -3,8 +3,6 @@
 
 
 void sort_array(int arr[] , int size){
-    int output[size];
-    int count=0;
     int x;
     for (int i=0;i<size;i++){
         for (int j=i+1;j<size;j++){
